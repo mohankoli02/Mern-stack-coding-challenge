@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+/* Controls */
+.controls {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+/* Transaction Table */
+.transaction-table {
+  margin-top: 20px;
+}
+
+.transaction-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.transaction-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.transaction-table input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Statistics Box */
+.statistics-box {
+  background: #e9ecef;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.stat {
+  margin: 10px 0;
+}
+
+/* Chart Styles */
+.bar-chart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pie-chart {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pie-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
